@@ -1,0 +1,46 @@
+* {
+    /*as different tags has differnt margin and padding , remove all */
+    padding: 0;
+    margin : 0;
+    box-sizing : border-box;
+}
+
+/*change the font of whole body*/
+body {
+   font-family : "Baskerville Old Face" , "sans-serif";
+}
+
+/*size of wrapper box full size and background color */
+.wrapper {
+    width : 100vw;
+    height: 100vh;
+    background: #0b7eaf;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.scoreboard {
+    padding : 20px;
+    width : 700px;
+    border : 5px solid black;
+    border-radius : 10px;
+    margin-top: 50px;
+    height: 150px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.score {
+    width : 150px;
+    height : 114px;
+    background-color: white;
+    border-radius: 10px;
+    display: flex;
+    flex-direction : column;
+    justify-content: center;
+    align-items : center;
+}
+.score h1 {
+    color : #0b7eaf;
+}
+
