@@ -65,3 +65,11 @@ body {
     margin-top : 100px;
 
 }
+.hands .hand {
+    cursor : pointer;
+    transition: all 0.25s;
+}
+
+.hands .hand:hover{
+    transform : translate3d(0px,-8px,0px);;
+}

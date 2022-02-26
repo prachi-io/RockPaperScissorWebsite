@@ -6,6 +6,7 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Gideon+Roman&family=Josefin+Sans:ital,wght@1,300&display=swap" rel="stylesheet">
     <link rel = "stylesheet" href = "style.css">
+    <script src = "js/index.js"></script>
 </head>
 <body>
 
@@ -24,13 +25,13 @@
 
         <div class = "hands" >
             <div class = "hand rock">
-                <img src =  "./images/Rock.png">
+                <img src =  "./images/Rock.png" onclick = "pickUserHand('rock')" >
             </div>
             <div class = "hand paper">
-                <img src =  "./images/Paper.png">
+                <img src =  "./images/Paper.png" onclick = "pickUserHand('paper')">
             </div>
             <div class = "hand sciissors">
-                <img src =  "./images/Scissors.png">
+                <img src =  "./images/Scissors.png" onclick = "pickUserHand('scissors')">
             </div>
         </div>
 
