@@ -76,7 +76,7 @@ body {
 
 .contest {
     width : 900px;
-    display : flex;
+    display : none;
     margin-top : 50px;
 }
 .contest img {
